@@ -9,3 +9,7 @@
   display: flex;
   padding: 0px 100px;
 }
+
+.footer-container {
+  border-top: solid 1px;
+}
