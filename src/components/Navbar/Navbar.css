@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+}
+
+#navbarlist {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  width: 300px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  width: 200px;
+  background-color: aquamarine;
+  justify-content: space-between;
+}
+
+.logo #role {
+  color: rgb(153, 153, 153);
+}
