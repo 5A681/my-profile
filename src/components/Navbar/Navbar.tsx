@@ -9,13 +9,30 @@ export default function Navbar() {
         </div>
         <div id="navbarlist">
           <li>
-            <a href="#">Resume</a>
+            <a href="#" style={{
+              fontSize: "1.1rem",
+              fontWeight: 500,
+              color: "#2d3436",
+              padding: "0 15px",
+              borderRight: "2px solid #dfe6e9"
+            }}>Resume</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="#" style={{
+              fontSize: "1.1rem", 
+              fontWeight: 500,
+              color: "#2d3436",
+              padding: "0 15px",
+              borderRight: "2px solid #dfe6e9"
+            }}>Projects</a>
           </li>
           <li>
-            <a href="#">Contacts</a>
+            <a href="#" style={{
+              fontSize: "1.1rem",
+              fontWeight: 500,
+              color: "#2d3436",
+              padding: "0 15px"
+            }}>Contacts</a>
           </li>
         </div>
       </nav>

@@ -1,9 +1,10 @@
 .profile-image {
-  background-image: url("../../assets/profile.png");
+  background-image: url("../../assets/wolf.png");
   background-size: cover;
   border-radius: 50%;
   width: 500px;
   height: 500px;
+  background-position: center;
 }
 .content {
   position: relative;
@@ -29,6 +30,14 @@
 }
 .about-list {
   display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+}
+a{
+  text-decoration: none;
+  color: #2d3436;
 }
 .circle {
   width: 100px;
@@ -39,13 +48,19 @@
   align-items: center;
   margin: 0 5px;
 }
+
+
+
 #resume {
-  background-color: yellow;
+  background-color: #ffd93d;
+
 }
 #project {
-  background-color: brown;
+  background-color: #e17055;
+
+}
+#contact {
+  background-color: #00cec9;
+  
 }
 
-#contact {
-  background-color: aquamarine;
-}

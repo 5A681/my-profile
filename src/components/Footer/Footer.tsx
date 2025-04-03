@@ -1,13 +1,14 @@
 import "./Footer.css";
 import "boxicons";
+
 export default function Footer() {
   return (
     <div className="footer-container">
       <div className="footer">
         <li>
           <div>
-            <h1>Phone</h1>
-            <h3>123-456-7890</h3>
+            <h1>Contact</h1>
+            <h3>085-870-3952</h3>
           </div>
         </li>
         <li>
@@ -18,16 +19,16 @@ export default function Footer() {
         </li>
         <li>
           <div>
-            <h1>Follow Me</h1>
-            <h1>
+            <h1>Connect</h1>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <i className="bx bxl-linkedin-square"></i>
-            </h1>
+            </a>
           </div>
         </li>
         <li>
           <div>
-            <h1>aa</h1>
-            <h3>aa</h3>
+            <h1>Location</h1>
+            <h3>Bangkok, TH</h3>
           </div>
         </li>
       </div>

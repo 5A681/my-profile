@@ -23,11 +23,21 @@ a {
 
 .logo {
   display: flex;
-  width: 200px;
-  background-color: aquamarine;
-  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.logo #name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2d3436;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
 }
 
 .logo #role {
-  color: rgb(153, 153, 153);
+  font-size: 1.1rem;
+  color: #636e72;
+  font-weight: 500;
+  letter-spacing: 0.3px;
 }
